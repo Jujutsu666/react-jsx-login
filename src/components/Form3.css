@@ -1,0 +1,138 @@
+.yarn {
+  max-width: 20%; /* Ajustar la imagen al ancho del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  /*margin-bottom: 20px; /* Espaciado inferior */
+  margin: 0 auto;
+  display: block; /*this brings the image in the midle of the page*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.logo {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+
+  margin: auto;
+  /*margin-top: 200px;*/
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  /*margin-top: 30px;*/
+}
+
+.text {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background-color: black;
+  border-radius: 9px;
+}
+
+.form {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.icon {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+
+.forgot-password {
+  display: flex;
+  align-items: left;
+  margin: auto;
+  margin-top: -30px;
+  color: #797979;
+  font-size: 18px;
+  margin-left: 95px;
+}
+
+.forgot-password span {
+  color: rgb(255, 0, 212);
+  cursor: pointer;
+}
+
+.form-button-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto; /*maybe i should change this*/
+}
+
+.button {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: -65px;
+}
+
+#login {
+  color: black;
+  background-color: #ccc;
+}
+
+.form button:hover,
+#login:hover {
+  background-color: #ff0095; /* Cambia el color al pasar el mouse */
+}
+
+.error {
+  /*margin-top: -180px;
+      margin-bottom: 100px;*/
+  display: flex;
+  align-items: left;
+  margin: auto;
+  margin-top: -30px;
+  font-size: 18px;
+}
